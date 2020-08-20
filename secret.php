@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["uid"]))
+{
+    $lastPage = "secret.php";
+    $_SESSION["lastPage"] = $lastPage;
+    header("Location: login.php");
+    exit();
+}
+?>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -11,7 +24,7 @@
     <td align="center" bgcolor="#CCCCCC"><font color="#FFFFFF">會員系統 － 會員專用</font></td>
   </tr>
   <tr>
-    <td align="center" valign="baseline">This page for member only.</td>
+    <td align="center" valign="baseline">此頁面僅限會員使用！</td>
   </tr>
   <tr>
     <td align="center" bgcolor="#CCCCCC"><a href="index.php">回首頁</a></td>

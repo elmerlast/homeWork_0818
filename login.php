@@ -20,9 +20,14 @@ if(isset($_POST["btnOK"])){
     if(trim($sUserName) != "")
     {
         $_SESSION["uid"] = $sUserName;
-        header("Location:index.php");
-        
+        if(isset($_SESSION["lastPage"]))
+        {
+          header(sprintf("Location: %s", $_SESSION["lastPage"]));
+        }else{
+          header("Location:index.php");
+        }
         exit();
+        
     }
 }
 
