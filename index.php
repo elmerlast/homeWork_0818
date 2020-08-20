@@ -24,13 +24,13 @@ if(isset($_SESSION["uid"])){
   <?php if($sUserName == "Guest"):?> 
     <td align="center" valign="baseline"><a href="login.php">登入</a> 
   <?php else: ?>
-    <td align="center" valign="baseline"><a href="login.php">登出</a> 
+    <td align="center" valign="baseline"><a href="login.php?logout=1">登出</a> 
   <?php endif; ?>    
 
     | <a href="secret.php">會員專區</a></td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#CCCCCC">&nbsp;歡迎登入！ <?=$sUserName ?></td>
+    <td align="center" bgcolor="#CCCCCC">&nbsp;歡迎！ <?=$sUserName ?></td>
   </tr>
 </table>
 
