@@ -1,7 +1,9 @@
 <?php
 session_start();
-if(isset($_SESSION["userName"])){
-  $sUserName = $_SESSION["userName"];
+
+
+if(isset($_SESSION["uid"])){
+  $sUserName = $_SESSION["uid"];
 }else{
   $sUserName = "Guest";
 }
@@ -10,7 +12,7 @@ if(isset($_SESSION["userName"])){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lab - index</title>
+<title>會員系統-首頁</title>
 </head>
 <body>
 

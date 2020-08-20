@@ -1,7 +1,9 @@
 <?php
+session_start();
+
 //使用者按下「回首頁」 的按鈕後，回到首頁。
-if(isset($_POST["btnHOME"])){
-    header("Location: index.php");
+if(isset($_POST["btnHome"])){
+    header("Location:index.php");
     exit();
 }
 
@@ -10,7 +12,8 @@ if(isset($_POST["btnOK"])){
     if(trim($sUserName) != "")
     {
         $_SESSION["uid"] = $sUserName;
-        header("Locattion: index.php");
+        header("Location:index.php");
+        
         exit();
     }
 }
@@ -23,7 +26,7 @@ if(isset($_POST["btnOK"])){
 	<title>Lab - Login</title>
 </head>
 <body>
-<form id="form1" name="form1" method="post" action="login.php">
+<form id="form1" name="form1" method="post" action="">
   <table width="300" border="0" align="center" cellpadding="5" cellspacing="0" bgcolor="#F2F2F2">
     <tr>
       <td colspan="2" align="center" bgcolor="#CCCCCC"><font color="#FFFFFF">會員系統 - 登入</font></td>
