@@ -10,7 +10,7 @@
   ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/MVC2.png)<br /><br /><br />
 
 - 新增登入登出提示訊息頁面<br >
-  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/提示訊息頁面.png)<br /><br /><br />
-  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/登入訊息.png)<br /><br /><br />
-  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/登出訊息.png)<br /><br /><br />
-  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/會員專區訊息.png)<br /><br /><br />
+  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/提示訊息頁面.PNG)<br /><br /><br />
+  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/登入訊息.PNG)<br /><br /><br />
+  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/登出訊息.PNG)<br /><br /><br />
+  ![image](https://github.com/elmerlast/homeWork_0818/blob/master/img/會員專區訊息.PNG)<br /><br /><br />
