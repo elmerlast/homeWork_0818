@@ -1,17 +1,18 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Lab - Login</title>
+	<title>會員登入</title>
 </head>
 <body>
 <form id="form1" name="form1" method="post" action="">
-  <table width="300" border="0" align="center" cellpadding="5" cellspacing="0" bgcolor="#F2F2F2">
+  <table width="300" border="7" align="center" cellpadding="5" cellspacing="0" bgcolor="#F2F2F2">
     <tr>
       <td colspan="2" align="center" bgcolor="#CCCCCC"><font color="#FFFFFF">會員系統 - 登入</font></td>
     </tr>
     <tr>
       <td width="80" align="center" valign="baseline">帳號</td>
-      <td valign="baseline"><input type="text" name="txtUserName" id="txtUserName" /></td>
+      <!-- 使用Regular Expression 限制使用者不可輸入空白字元且至少輸入一個字元-->
+      <td valign="baseline"><input type="text" name="txtUserName" id="txtUserName" pattern="[^ \t\r\n\f]{1,}"/></td>
     </tr>
     <tr>
       <td width="80" align="center" valign="baseline">密碼</td>

@@ -8,12 +8,12 @@
 </head>
 <body>
 
-<table width="300" border="0" align="center" cellpadding="5" cellspacing="0" bgcolor="#F2F2F2">
+<table width="300" border="7" align="center" cellpadding="5" cellspacing="0" bgcolor="#F2F2F2">
   <tr>
     <td align="center" bgcolor="#CCCCCC"><font color="#FFFFFF">訊息</font></td>
   </tr>
   <tr>
-    <td align="center" valign="baseline"><?php echo $data->pageLocation;?></td>  
+    <td align="center" valign="baseline"><?php echo $data->pageMessage;?></td>  
   </tr>
 
 </table>

@@ -1,7 +1,7 @@
 <?php
 
 class LastPage {
-    public $pageLocation;
+    public $pageMessage;
 }
 
 ?>
